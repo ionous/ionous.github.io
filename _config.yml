@@ -1,3 +1,5 @@
+title: ionous 
+description: all you never wanted to know about game programming.
 markdown: kramdown
 permalink: /posts/:year/:month/:day/:title
 theme: jekyll-theme-midnight
