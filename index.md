@@ -1,5 +1,4 @@
 ---
-layout: default
 title: io's new dev blog
 ---
 # {{ page.title }}
