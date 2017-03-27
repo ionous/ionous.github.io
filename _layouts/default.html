@@ -10,8 +10,11 @@
   <body>
 <header>
       <div class="container">
-        <span><h1>{{ site.title | default: site.github.repository_name }}</h1><a href="{{ site.github.url }}">(home)</a></span>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        {% unless page.url == site.github.url %}
+        <a href="{{ site.github.url }}">(home)</a>
+        {% endif %}
       </div>
     </header>
     <div class="container">
