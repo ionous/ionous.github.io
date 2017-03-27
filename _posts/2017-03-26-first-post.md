@@ -2,6 +2,7 @@
 layout: post
 title: "Trying github pages"
 date: 2017-03-26
+comments: true
 ---
 Looking at possibly using github pages to host some of my blog content. 
 Currently, i use blogger, unfortunately it isn't great at styling code. 
