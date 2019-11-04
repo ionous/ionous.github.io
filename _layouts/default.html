@@ -12,9 +12,9 @@
       <div class="container">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-           {% unless page.url == "/" %}
-        <a href="{{ site.github.url }}">(home)</a>
-        {% endif %}
+        {% unless page.url == "/" %}
+          <a href="{{ site.github.url }}">(home)</a>
+        {% endunless %}
       </div>
 
     </header>
