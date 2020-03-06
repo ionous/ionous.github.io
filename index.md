@@ -1,5 +1,5 @@
 ---
-title: io's new dev blog
+title: io's occasional daily updates
 ---
 # {{ page.title }}
 
@@ -9,3 +9,6 @@ title: io's new dev blog
 {% endfor %}
 </ul>
 
+Haven't had enough?
+For even rarer, longer form posts check out:<br>
+http://dev.ionous.net/
